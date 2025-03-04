@@ -4,7 +4,6 @@
   margin: 0;
 }
 body {
-  background-color: black;
   overflow-x: hidden;
 }
 
@@ -41,9 +40,10 @@ body {
   gap: 30px;
   margin-top: 30px;
 }
+
 .img_ticket {
   font-size: 50px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .link {
@@ -98,7 +98,7 @@ body {
 .movepage {
   background-color: rgba(34, 34, 34, 0.941);
   height: 50vh;
-  margin-top: 10px;
+  margin-top: -17px;
 }
 
 .footer {
@@ -117,10 +117,12 @@ body {
 .movie {
   border-radius: 20px;
   border: 2px solid #ddd;
+  height: 100%;
   padding: 10px;
   margin-bottom: 10px;
   width: 200px;
 }
+
 .movie img {
   max-width: 100%;
   height: auto;
@@ -171,3 +173,26 @@ input {
   padding: 10px;
 }
 
+.loading-spinner {
+  display: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 10px solid rgb(154, 160, 154);
+  border-top: 10px solid transparent;
+  margin: 0 auto;
+  animation: laodingspinner 1s linear infinite;
+}
+
+.loading-spinner.visible {
+  display: block;
+}
+
+@keyframes laodingspinner {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
