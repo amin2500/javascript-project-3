@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.head {
+  background-image: url(./assets/background.jpg);
+
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vh;
+  margin-top: -40px;
+  filter: brightness(90%);
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.img_ticket {
+  font-size: 50px;
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.glass {
+  font-size: 25px;
+  color: white;
+}
+
+.gear {
+  font-size: 25px;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+
+.name {
+  color: white;
+  font-size: 40px;
+}
+
+.para {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 25px;
+  background-color: transparent;
+  border: 3px solid white;
+  font-size: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+.movepage {
+  background-color: rgba(34, 34, 34, 0.941);
+  height: 50vh;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+.results {
+  font-size: 35px;
+  color: white;
+  margin-left: 18px;
+  margin-top: 19px;
+}
+
+.movie {
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page_wrapper {
+  display: flex;
+  gap: 23px;
+  margin-top: 23px;
+  margin-left: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 23px;
+}
+
+p {
+  color: white;
+  font-size: 23px;
+}
+
+.glas {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.button_wrapper {
+  position: relative;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  padding: 10px;
+}
+
